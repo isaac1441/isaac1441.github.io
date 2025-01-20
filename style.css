@@ -7,16 +7,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #020203;
+    background-color: #191924;
   }
   .homepage{
     height: 100%;
     width: 80vw; 
-    background-color: #786485;
     position: relative;
-    margin-top: 18vh;
-    object-fit: contain;
-    
   }
   .bg{
     width: 10%;
@@ -25,18 +21,12 @@ body{
     object-fit: cover;
   }
   nav{
-    background-color: #e982e0;
-    height: 18vh;
-    width: 80vw;
     position: relative;
-    top: -10vh;
-    box-shadow: 1vh 1vh 1vh #464545;
     font-family: "Comic Sans MS", cursive, sans-serif;
-    color: #e651e6;
-
+    height: auto;
   }
   .banner{
-    object-fit: fill;
+    object-fit: cover;
     height: 100%;
     width: 100%
   }
