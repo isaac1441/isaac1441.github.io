@@ -13,8 +13,10 @@ body{
     height: 100%;
     width: 80vw; 
     background-color: #786485;
-    
     position: relative;
+    margin-top: 18vh;
+    object-fit: contain;
+    
   }
   .bg{
     width: 10%;
@@ -27,13 +29,19 @@ body{
     height: 18vh;
     width: 80vw;
     position: relative;
-    top: 0px;
-    box-shadow: 10px 10px 10px #464545;
+    top: -10vh;
+    box-shadow: 1vh 1vh 1vh #464545;
     font-family: "Comic Sans MS", cursive, sans-serif;
     color: #e651e6;
+
   }
   .banner{
     object-fit: fill;
     height: 100%;
     width: 100%
+  }
+  .invite{
+    background-color: #c565b8;
+    height: 20vh; 
+    
   }
